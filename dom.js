@@ -1,6 +1,7 @@
 document.getElementById('add-border').addEventListener('click',
 function(){
 
-console.log('add border clicked')
+const container = document.getElementById('friend-container');
+container.style.border = '3px solid yellow';
 
 })
