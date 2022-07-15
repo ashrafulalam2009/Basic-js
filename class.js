@@ -23,6 +23,8 @@ const car2 = new Car("suzuki", 2020);
 
 
 class Person {
+
+    // address = "bangladesi";
     constructor(name,age) {
     this.name = name;
     this.age = age;
