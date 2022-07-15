@@ -3,8 +3,9 @@ class Support{
     designation = 'support web Dev';
     address= 'BD';
 
-    constructor(name){
+    constructor(name, address){
 this.name = name;
+this.address = address;
     }
 
     startSession(){
@@ -12,8 +13,8 @@ this.name = name;
     }
 }
 
-const amir = new Support("Amir khan");
-const salman = new Support("Salman khan");
+const amir = new Support("Amir khan","India");
+const salman = new Support("Salman khan","bd");
 
 console.log(amir);
 console.log(salman);
