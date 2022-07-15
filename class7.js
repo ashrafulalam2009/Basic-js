@@ -1,7 +1,7 @@
 class Support{
     name;
     designation = 'support web Dev';
-    address= 'BD';
+    // address= 'BD';
 
     constructor(name, address){
 this.name = name;
