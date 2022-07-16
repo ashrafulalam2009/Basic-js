@@ -61,3 +61,4 @@ const ash = new NeptuneDev('Ashraful','Dhaka', 'vs code');
 // console.log(alia);
 
 console.log(ash);
+ash.releaseApp('6.5');
